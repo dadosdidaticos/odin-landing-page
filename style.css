@@ -5,12 +5,11 @@ body{
 .hero, .footer{
     background-color: #1F2937;
     color: #F9FAF8;
-    padding-left: 48px;
-    padding-right: 48px;
-    padding-top: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 24px;
     padding-bottom: 24px;
     font-size: 18px;
-    color: #E5E7EB;
 }
 
 
@@ -57,17 +56,19 @@ ul {
 .hero-content > h1 {
     font-size: 48px;
     font-weight:900;
+    display: inline-block;
+    margin: 16px;
 }
 
 .hero-content-left{
     flex: 1;
     max-width: 600px;
+
 }
 
 
 .hero-content-left > button{
     background-color: #3882F6;
-    color: #F9FAF8;
     font-weight: 800;
     font-size: 18px;
     width: 160px;
@@ -77,13 +78,55 @@ ul {
     border-radius: 12px;
 }
 
+.hero-content-left > p {
+    color: #E5E7EB;
+}
+
 a {
     text-decoration: none;
     color: #F9FAF8;
 }
 
+.title {
+    padding: 48px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+    text-align: center;
+}
 
+.mid-container {
+    display: flex;
+    justify-content: center;
+    gap: 72px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
 
+.info > img{
+    flex: 1 1 auto;
+    border: 3px solid #3882F6;
+    padding: 8px;
+    border-radius: 12px;
+    width: 150px;
+    height: 150px;
+}
+
+.info {
+    flex: 1 0 auto;
+    width: 150px;
+    height: auto;
+    max-width: 172px;
+}
+
+div.text {
+    display: flex;
+    color: #1F2937;
+    justify-content: center;
+}
 
 .footer{
     display: flex;
