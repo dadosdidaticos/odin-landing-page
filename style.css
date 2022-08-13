@@ -18,11 +18,15 @@ body{
     justify-content: space-between;
     align-items: center;
     max-height: 32px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 16px;
+    font-size: 18px;
 }
 
 
 #logo{
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 800;
 }
 
@@ -37,11 +41,12 @@ ul {
 
 .hero-content{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: stretch;
     gap:8px;
     margin-top: 48px;
     margin-bottom: 48px;
+
 }
 
 .hero-img{
@@ -49,7 +54,8 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 600px;
+    max-width: 172px;
+    height: auto;
 
 }
 
@@ -60,14 +66,14 @@ ul {
     margin: 16px;
 }
 
-.hero-content-left{
+.hero-content-left {
     flex: 1;
     max-width: 600px;
 
 }
 
 
-.hero-content-left > button{
+button {
     background-color: #3882F6;
     font-weight: 800;
     font-size: 18px;
@@ -87,7 +93,7 @@ a {
     color: #F9FAF8;
 }
 
-.title {
+#info {
     padding: 48px;
     font-size: 36px;
     color: #1F2937;
@@ -122,18 +128,18 @@ a {
     max-width: 172px;
 }
 
-.text {
+.info .text {
     display: flex;
     color: #1F2937;
     justify-content: center;
 }
 
-.quote{
+.quote {
     background-color: #E5E7EB;
     padding: 100px;
 }
 
-.quote .text{
+.quote .text {
     font-size: 36px;
     font-style: italic;
     font-weight:300;
@@ -148,7 +154,40 @@ a {
     
 }
 
-.footer{
+.call {
+    background-color: #3882F6;
+    border: 0px;
+    border-radius: 10px;
+    margin: 100px;
+    padding: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0px;
+}
+
+.call .title {
+    font-size: 36px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.call .text {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.call button {
+    border: 2px solid #F9FAF8;
+}
+
+.footer {
     display: flex;
     justify-content: center;
 }
